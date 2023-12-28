@@ -1,0 +1,16 @@
+cabal-version:      2.4
+name:               aoc2023
+version:            0.1.0.0
+synopsis:
+homepage:           https://github.com/adem/aoc2023
+license:            MIT
+license-file:       LICENSE
+author:             Adem Aydin
+maintainer:         mail@adem.dev
+category:           Recreational
+extra-source-files: CHANGELOG.md
+executable aoc2023
+    main-is:          Main.hs
+    build-depends:    base ^>=4.17.2.0
+    hs-source-dirs:   app
+    default-language: Haskell2010
